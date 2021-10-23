@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
+    text-align: center;
 }
 
 #button, #enviar, #enviar_ajax{
@@ -56,6 +57,10 @@ h6{
 
 #button_edit{
     background-color: rgb(170, 161, 75);
+}
+
+#show_all{
+    background-color: #031634;
 }
 
 

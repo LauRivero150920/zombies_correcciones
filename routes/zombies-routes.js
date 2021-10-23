@@ -4,11 +4,13 @@ const zombiesController = require('../controllers/zombies-controller');
 
 const router = express.Router();
 
-// router.get('/add', zombiesController.addZombie);
+router.get('/add', zombiesController.addZombie);
 
 // router.post('/add', zombiesController.postZombie);
 
-// router.get('/list', zombiesController.getZombies);
+router.get('/list', zombiesController.getZombies);
+
+router.post('/filter', zombiesController.getZombiesFiltered);
 
 // router.put('/update/:id', zombiesController.updateZombieState);
 
