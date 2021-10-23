@@ -1,0 +1,1 @@
+const Zombie = require('../models/zombie');

@@ -1,0 +1,61 @@
+.page-footer, nav{
+    background-color: #036564;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+#button, #enviar, #enviar_ajax{
+    color: white;
+    background-color: rgb(170, 63, 63);
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#add_place, #add_type, #return{
+    background-color: #033649;
+}
+
+#mostrar_tabla{
+    background-color: rgb(111, 180, 97);
+}
+
+h6{
+    background-color: rgb(193, 199, 201);
+    width: 15%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#estado_1{
+    background-color: rgb(110, 204, 110);
+}
+#estado_2{
+    background-color: rgb(148, 204, 110);
+}
+#estado_3{
+    background-color: rgb(204, 195, 110);
+}
+
+#estado_4{
+    background-color: rgb(204, 152, 110);
+}
+
+#estado_5{
+    background-color: rgb(204, 110, 110);
+}
+
+#button_edit{
+    background-color: rgb(170, 161, 75);
+}
+
+
